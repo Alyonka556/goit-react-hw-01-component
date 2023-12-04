@@ -15,10 +15,10 @@ function getRandomHexColor() {
     .padStart(6, 0)}`;
 }
 
-export const Statistics = ({ title, stats }) => {
+export const Statistics = ({ title = null, stats }) => {
   return (
     <StyledStatistics>
-      <StyledTitle>{title}</StyledTitle>
+      {title && <StyledTitle>{title}</StyledTitle>}
 
       <StyledStatList>
         {stats.map(({ id, label, percentage }) => {
