@@ -38,6 +38,11 @@ export const StyledKeyId = styled.tr`
     background-color: #93a0c5f0;
     border: 3px solid grey;
   }
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 5px 5px 5px grey, -5px -5px 5px grey;
+  }
 `;
 
 export const StyledValue = styled.td`
