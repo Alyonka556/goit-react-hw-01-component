@@ -11,7 +11,7 @@ import {
   StyledItems,
   StyledLabel,
   StyledQuantity,
-} from './Profile';
+} from './Profile.styled';
 
 export const Profile = ({
   username,

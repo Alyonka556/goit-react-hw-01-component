@@ -7,7 +7,7 @@ import {
   StyledItems,
   StyledLabel,
   StyledPercentuage,
-} from './Statictics';
+} from './Statictics.styled';
 
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
